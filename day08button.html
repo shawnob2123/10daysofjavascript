@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/button.css" type="text/css">
+
+        <style>
+          .btn {
+          width: 96px;
+          height: 48px;
+         font-size: 24px;
+}
+        </style>
+    </head>
+    
+    <body>
+        <button id='btn'></button>
+
+       
+        <script>
+        let btn = document.getElementById('btn');
+        btn.addEventListener("click",function() {
+            btn.innerHTML++
+        });
+        </script>
+    </body>
+</html>
